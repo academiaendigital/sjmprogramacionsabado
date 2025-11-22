@@ -10,7 +10,7 @@
 ## MÓDULO __PHP Y MSYQL__
 ## MÓDULO **PYTHON**
 
-> Empieza donde estas, con lo que tienes
+> Empieza donde estas, usa lo que tienes, con lo que tienes
 [Google Fonts](https://fonts.google.com/)
 
 ![Pollito pio.](assets/images/pio.jpg "Esto es un ejemplo.")
