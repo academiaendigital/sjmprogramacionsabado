@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 body {
   padding: 0px;
   margin: 0px;
+  font-family: "Inter", sans-serif;
+  
 }
 
 :root{
@@ -22,7 +27,7 @@ a {
   text-decoration: none;
 }
 .menu {
-  background-color: var(--black); /* color del fondo*/
+  background-color: var(--main-color); /* color del fondo*/
   color: var(--white); /*color de la letra*/
   font-size: 14px; /*tama;o de la tipografia de la letra*/
   font-family: Verdana, Geneva, Tahoma, sans-serif; /*tipo de letra*/
@@ -56,6 +61,7 @@ a {
   font-size: 48px;
   font-weight: 800;
   color: var(--main-color);
+  font-family: "Nunito", sans-serif;
 }
 .img-quienes-somos {
   width: 600px;
@@ -73,6 +79,7 @@ a {
 .contenedor h2 {
   font-size: 48px;
   font-weight: bold;
+  font-family: "Nunito", sans-serif;
 }
 .contenedor p {
   font-size: 16px;
@@ -84,6 +91,7 @@ a {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;
   text-align: center;
+  font-family: "Nunito", sans-serif;
   /*  margin-top: 80px;*/
 }
 .servicios .col {
@@ -93,8 +101,11 @@ a {
 }
 .icon {
   font-size: 90px;
+  color: var(--second-color);
 }
-
+.icon:hover{
+    color: var(--aqua);
+}
 /*FOOTER*/
 
 footer {
@@ -109,18 +120,33 @@ footer h3 {
   color: var(--main-color);
   font-size: 24px;
   font-weight: 900;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 footer .social-icons {
   display: flex;
+    
 }
 footer .social-icons li {
   padding: 5px;
+
+  
 }
 footer .social-icons li a {
   font-size: 24px;
-  color: var(--main-color)
+  color: var(--main-color);
+  
 }
 footer .social-icons li a:hover {
-  color: var(--aqua)
+  color: var(--aqua);
+}
+.lh-1-5{
+ line-height: 1.5em;
+}
+
+.copyright{
+    background-color: var(--gray-dark);
+    color: var(--white);
+    font-size: 14px;
+    height: 60px;
+    padding-top: 15px;
 }
